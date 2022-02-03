@@ -15,7 +15,7 @@ Please note that care should be taken with this KEXT because any entitlement you
 
 ## Usage
 
-This KEXT requires [Lilu][2].
+This KEXT requires [Lilu][2] and [MacKernelSDK][3]
 
 To add an entitlement exemption, open `Info.plist` in your favourite plist editor and under `IOKitPersonalities => AMFIExemptionList => Exemptions`, you can add new strings to the array. There are two kinds of exemptions supported:
 
@@ -30,3 +30,4 @@ It is highly recommended that this KEXT is loaded by OpenCore with the vault fea
 
   [1]: https://pvieito.com/2016/12/amfid-patching
   [2]: https://github.com/acidanthera/Lilu
+  [3]: https://github.com/acidanthera/MacKernelSDK
