@@ -1,5 +1,7 @@
 # AMFIExemption
 
+credits for original work to [osy][4], Updated to reflect actual Lilu dependencies builds
+
 Adds allowed entitlements to non-Apple signed apps when SIP is enabled.
 
 ## What is this?
@@ -31,3 +33,4 @@ It is highly recommended that this KEXT is loaded by OpenCore with the vault fea
   [1]: https://pvieito.com/2016/12/amfid-patching
   [2]: https://github.com/acidanthera/Lilu
   [3]: https://github.com/acidanthera/MacKernelSDK
+  [4]: https://github.com/osy
