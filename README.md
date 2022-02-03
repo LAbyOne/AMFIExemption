@@ -28,7 +28,7 @@ Note that having an entitlement in the exemption list does *not* mean that entit
 
 ## Security
 
-It is highly recommended that this KEXT is loaded by OpenCore with the vault feature enabled. This would prevent malware from modifying `Info.plist` and granting itself arbitrary entitlements which defeats SIP+AMFI security.
+It is highly recommended that this KEXT is loaded by your Boot-Loader with the vault feature enabled. This would prevent malware from modifying `Info.plist` and granting itself arbitrary entitlements which defeats SIP+AMFI security.
 
   [1]: https://pvieito.com/2016/12/amfid-patching
   [2]: https://github.com/acidanthera/Lilu
